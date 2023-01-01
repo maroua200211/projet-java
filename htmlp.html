@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title> Transparent Login Form Design </title>
+    <link rel="stylesheet" type="text/css" href="css.css">   
+</head>
+    <body>
+    <div class="login-box">
+
+        <h1>Sign Up</h1>
+           
+        <form id="loginform">
+            
+            <div>Username</div>
+                  
+                  <input type="text" name="username" placeholder="Choose Username" id="un">
+                  <div id="erreuru" style="color: red;"></div>
+            
+             <div>Email</div>
+                    <input type="text" name="email" placeholder="example@example.com" id="em">
+                    <div id="erreure" style="color: red;"></div>
+            <div>Password</div>
+                    <input type="password" name="password" placeholder="Enter Password" onkeyup="mafon" id="pw+Ã¹" required="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})">
+           
+             <div> confirm Password</div>       
+                    <input type="password" name="confirm password"  placeholder="Enter Password" onkeyup="mafon" id="cpw" required="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})"id="confirm pass">
+             <div>      
+                    <input type="submit" name="submit" value="sign up"onclick="window.location.href='homem.html'"></div>
+           
+            </form>
+        
+        
+        </div>
+        <script src="jsp1.js"></script>
+    </body>
+</html>
